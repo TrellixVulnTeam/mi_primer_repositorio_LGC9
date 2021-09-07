@@ -1,0 +1,126 @@
+@import "colores"; 
+@import "tipografias";
+
+.fondo1 {
+    background-image: linear-gradient(to bottom ,#e9a96a, #ffffff);
+    background-size: cover;
+}
+.fondo2 {
+    background-image: linear-gradient(to bottom ,#e9c983, #eaecc6);
+    background-size: cover;
+
+}
+.fondo3 {
+    background-image: linear-gradient(to bottom, rgb(226, 147, 28), rgb(242, 242, 248));   
+    background-size: cover;
+}
+
+.body__logo {
+    width: 200px;
+    transform: rotateX(30deg);
+    animation-name: aparecer;
+    animation-duration: 6s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+    0% {left: 0px;top:0px;}
+    25% {left: 100px;top:0px;}
+    50% {left: 300px;top:0px;}
+    75% {left: 100px;top:0px;}
+    100% {left: 0px;top:0px;}
+}
+.body__menu__link {
+    color: RGB 33, 97, 140;
+    font-size: 18px;
+    transition: all 2s;
+    color: rgb(41, 201, 230) ;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-right: 15px;
+}
+.body__menu__link :hover {
+    font-size: 40px;
+}
+.body__menu__link--activo {
+    font-style: oblique;
+    font-size: 20px;
+    text-decoration-style: dashed;
+    text-decoration-line: underline;
+}
+.body__p {
+    padding-top: 120px;
+}
+.footer__imag {
+    position: relative;
+    padding-top: 130px;
+    padding-right: 20px;
+}
+
+/* each */
+$dimension: 15px;
+@each $redes in instagram, facebook, linkedin, twitter {
+    .#{$redes}-fondo {
+        width: $dimension * 2;
+        height: $dimension * 2;
+        background-image: url(".../imagenes/#{$redes}.jpg");
+    }  
+}
+
+.footer__p {
+    position: relative;
+    padding-top: 25px;
+    padding-right: 0px;
+}
+.body__link{
+    color: rgb(39, 39, 70);
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style: oblique;
+    font: size 45px;
+    text-decoration: rgb(15, 15, 211);
+}
+.table__header {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color:  rgb(102, 84, 84);
+    background-color: rgb(194, 181, 181);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-color: rgb(243, 236, 236);
+    border-bottom: solid;
+}
+
+    .table__item {
+        font-size: 16px;
+        font-weight: bold;
+        font-family: sans-serif;
+        color:  rgb(243, 236, 236);
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        border-color: rgb(243, 236, 236);
+        border-bottom: solid;
+        background-color: rgb(90, 81, 81);
+    }
+
+/* formulario*/ 
+.form__titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: oblique;
+    color: rgb(17, 17, 94);
+    padding-top: 30px;
+}
+.form__texto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: oblique;
+    color: rgb(11, 11, 121);
+}

@@ -1,0 +1,152 @@
+header {
+  color: RGB46, 134, 193; }
+
+p {
+  color: RGB26, 82, 118; }
+
+.parrafos {
+  font-family: 'Architects Daughter', cursiva;
+  font-size: 18px; }
+
+p {
+  font-family: 'Architects Daughter', cursiva;
+  font-size: 18px; }
+
+.fondo1 {
+  background-image: linear-gradient(to bottom, #e9a96a, #ffffff);
+  background-size: cover; }
+
+.fondo2 {
+  background-image: linear-gradient(to bottom, #e9c983, #eaecc6);
+  background-size: cover; }
+
+.fondo3 {
+  background-image: linear-gradient(to bottom, #e2931c, #f2f2f8);
+  background-size: cover; }
+
+.body__logo {
+  width: 200px;
+  transform: rotateX(30deg);
+  animation-name: aparecer;
+  animation-duration: 6s;
+  position: relative;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+@keyframes aparecer {
+  0% {
+    left: 0px;
+    top: 0px; }
+  25% {
+    left: 100px;
+    top: 0px; }
+  50% {
+    left: 300px;
+    top: 0px; }
+  75% {
+    left: 100px;
+    top: 0px; }
+  100% {
+    left: 0px;
+    top: 0px; } }
+
+.body__menu__link {
+  color: RGB 33, 97, 140;
+  font-size: 18px;
+  transition: all 2s;
+  color: #29c9e6;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-top: 25px;
+  padding-right: 15px; }
+
+.body__menu__link :hover {
+  font-size: 40px; }
+
+.body__menu__link--activo {
+  font-style: oblique;
+  font-size: 20px;
+  text-decoration-style: dashed;
+  text-decoration-line: underline; }
+
+.body__p {
+  padding-top: 120px; }
+
+.footer__imag {
+  position: relative;
+  padding-top: 130px;
+  padding-right: 20px; }
+
+/* each */
+.instagram-fondo {
+  width: 30px;
+  height: 30px;
+  background-image: url(".../imagenes/instagram.jpg"); }
+
+.facebook-fondo {
+  width: 30px;
+  height: 30px;
+  background-image: url(".../imagenes/facebook.jpg"); }
+
+.linkedin-fondo {
+  width: 30px;
+  height: 30px;
+  background-image: url(".../imagenes/linkedin.jpg"); }
+
+.twitter-fondo {
+  width: 30px;
+  height: 30px;
+  background-image: url(".../imagenes/twitter.jpg"); }
+
+.footer__p {
+  position: relative;
+  padding-top: 25px;
+  padding-right: 0px; }
+
+.body__link {
+  color: #272746;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-style: oblique;
+  font: size 45px;
+  text-decoration: #0f0fd3; }
+
+.table__header {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #665454;
+  background-color: #c2b5b5;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  border-color: #f3ecec;
+  border-bottom: solid; }
+
+.table__item {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #f3ecec;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  border-color: #f3ecec;
+  border-bottom: solid;
+  background-color: #5a5151; }
+
+/* formulario*/
+.form__titulo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: oblique;
+  color: #11115e;
+  padding-top: 30px; }
+
+.form__texto {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: oblique;
+  color: #0b0b79; }

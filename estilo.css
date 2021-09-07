@@ -1,0 +1,344 @@
+.fondos1 {
+    background-image: linear-gradient(to bottom, rgb(238, 132, 155), rgb(242, 242, 248));
+    padding: 20px;
+}
+.fondos2 {
+    background-image: linear-gradient(to bottom, rgb(146, 187, 241), rgb(242, 242, 248));
+    background-size: cover;
+}
+
+.titulos {
+    color: rgb(7, 36, 131);
+    font-weight: bold;
+    font-size: 18px;
+}
+.textosP {
+    color: rgb(12, 2, 2);
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+}
+.textolink {
+    color: rgb(39, 39, 70);
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style: oblique;
+    font: size 45px;
+    text-decoration: rgb(15, 15, 211);
+}
+.table {
+    padding-top: 100px;
+}
+.posicionlogo {
+    width: 200px;
+    transform: rotateX(30deg);
+    animation-name: aparecer;
+    animation-duration: 6s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+    0% {left: 0px;top:0px;}
+    25% {left: 100px;top:0px;}
+    50% {left: 300px;top:0px;}
+    75% {left: 100px;top:0px;}
+    100% {left: 0px;top:0px;}
+}
+.menu1 {
+    color:rgb(140, 30, 155);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-right: 15px;
+}
+.formulario{
+    font-family: sans-serif;
+    color: rgb(3, 3, 102);
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 20px;
+}
+
+.section1 {
+    width: 500px;
+    float: left;
+    margin-left: 120px;
+    margin-top: 150px;
+}
+
+.section2 {
+  float: right;
+  margin-right: 180px;
+  margin-top: 100px;
+  padding-right: 5px;
+}
+
+.flex-container {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;   
+  }
+
+.flex-item {
+    margin-top: 400px;
+    margin-left: 15px;
+    display: flex;
+    justify-items: left;
+}
+
+  .imagen1 {
+      background-image: url(../imagenes/sixsigmadmaic.jpg);
+      top: 0px;
+      right: 0px;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+  }
+  .sample-div {
+    position: absolute;
+    
+  }
+  .transpa-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+  }
+  
+.imagen2{
+    background-image: url(../imagenes/contacto.jpg);
+    top: 0px;
+    left: 0%;
+    background-size: cover;
+    width:50%;
+    height: 50%;
+}
+.padre-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    padding-right: 30px; 
+}
+
+.menu {
+    transition: all 2s;color:rgb(140, 30, 155);
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-right: 15px;
+}
+
+.menu :hover {
+    font-size: 40px;
+}
+
+.padre-flex li a {
+    padding-left: 35px;
+    list-style: none;
+    color:rgb(19, 34, 75);
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;    
+}
+/**se intenta sacar la viñeta pero no se logra, continuo trabajandolo**/
+
+.padre-flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.container-table {
+    width: 30%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-auto-rows: 30px;
+    border: double;
+    border-color: rgb(243, 236, 236);
+}
+.title-link {
+    color: rgb(220, 220, 240);
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-left: 40px; 
+}
+
+.table-header {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color:  rgb(102, 84, 84);
+    background-color: rgb(194, 181, 181);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-color: rgb(243, 236, 236);
+    border-bottom: solid;
+}
+.table-item {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color:  rgb(243, 236, 236);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-color: rgb(243, 236, 236);
+    border-bottom: solid;
+    background-color: rgb(90, 81, 81);
+}
+.fondo {
+   background-color: rgb(209, 209, 238);
+   background-size: cover;
+}
+
+.container-sixsigma {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 25px;
+    padding-top: 100px;
+}
+.parrafos {
+    font-style: oblique;
+    font-size: 18px;
+    color: rgb(1, 1, 14);
+    font-weight: bold;
+    width: 700px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.video {
+    padding-left: 35px;
+    float: right;
+    margin-right: 100px;
+    margin-left: 40PX;
+    margin-top: 50px;
+    padding-right: 5px;
+}
+.button {
+    border: black;
+    border-style: inherit;
+    font-style: italic;
+    font-size: medium;
+    font-weight: bold;
+    width: 100px;
+    margin-top: 30PX;
+    text-decoration: none;
+
+}
+.button2 {
+    border: black;
+    border-style: inherit;
+    font-style: italic;
+    font-size: medium;
+    font-weight: bold;
+    width: 200px;
+    float: right;
+    margin-top: 20PX;
+    margin-right: 150px;
+    text-decoration: none;
+}
+.button3 {
+    border: black;
+    border-style: inherit;
+    font-style: italic;
+    font-size: medium;
+    font-weight: bold;
+    width: 100px;
+    float: right;
+    margin-top: 10PX;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.titulo-form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: oblique;
+    color: rgb(17, 17, 94);
+    padding-top: 30px;
+}
+
+.texto-form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: oblique;
+    color: rgb(11, 11, 121);
+}
+.cont1 {
+    padding-top: 120px;
+
+}
+.cont2 {
+    padding-top: 100px;
+}
+.cont3 {
+    position: relative;
+    padding-top: 150px;
+    padding-right: 0px;
+}
+.cont4 {
+    position: relative;
+    padding-top: 25px;
+    padding-right: 0px;
+}
+/****DESARROLLO WEB*****/
+.header_dw {
+    color: rgb(238, 238, 247);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pdw {
+    padding-top: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    color: rgb(58, 9, 138);
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.carousel_dw {
+    padding-top: 40px;
+
+}
+    /**@media screen and (min-width: 1024px) {
+    body {
+        background-color: rgb(110, 214, 132);
+        font-size: 16px;
+        font-family:cursive;
+    }
+}
+    /**@media screen and (max-width:768px) {
+    body {
+        background-color: rgb(214, 185, 110);
+        font-size: 14px;
+        font-family:'Times New Roman', Times, serif;
+    }
+}
+    /**@media screen and (max-width:480px) {
+    body {
+        background-color: rgb(185, 96, 185);
+        font-size: 12px;
+        font-family:sans-serif;
+    }
+}
