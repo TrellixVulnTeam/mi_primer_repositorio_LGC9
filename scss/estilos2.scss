@@ -59,14 +59,7 @@
     background-size: cover;
 
 }
-.fondo3 {
-    background-image: linear-gradient(to bottom, rgb(224, 188, 134), rgb(242, 242, 248));   
-    background-size: cover;
-}
-.fondo4 {
-    background-image: linear-gradient(to bottom, rgb(200, 230, 162), rgb(242, 242, 248));   
-    background-size: cover;
-}
+
 /* each */
 $dimension: 15px;
 @each $redes in instagram, facebook, linkedin, twitter {
@@ -182,6 +175,10 @@ $dimension: 15px;
 
     /* formulario*/ 
 
+.fondo4 {
+    background-image: linear-gradient(to bottom, rgb(200, 230, 162), rgb(242, 242, 248));   
+    background-size: cover;
+}
 .form__titulo {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
@@ -200,6 +197,10 @@ $dimension: 15px;
 
    /* Desarrollo Web */
 
+.fondo3 {
+    background-image: linear-gradient(to bottom, rgb(224, 188, 134), rgb(242, 242, 248));   
+    background-size: cover;
+}
 .header_dw {
     color: rgb(238, 238, 247);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

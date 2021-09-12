@@ -75,14 +75,6 @@ p {
   background-image: linear-gradient(to bottom, #e6bf98, #eaecc6);
   background-size: cover; }
 
-.fondo3 {
-  background-image: linear-gradient(to bottom, #e0bc86, #f2f2f8);
-  background-size: cover; }
-
-.fondo4 {
-  background-image: linear-gradient(to bottom, #c8e6a2, #f2f2f8);
-  background-size: cover; }
-
 /* each */
 .instagram-fondo {
   width: 30px;
@@ -203,6 +195,10 @@ p {
   padding-right: 25px; }
 
 /* formulario*/
+.fondo4 {
+  background-image: linear-gradient(to bottom, #c8e6a2, #f2f2f8);
+  background-size: cover; }
+
 .form__titulo {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
@@ -219,6 +215,10 @@ p {
   color: #0b0b79; }
 
 /* Desarrollo Web */
+.fondo3 {
+  background-image: linear-gradient(to bottom, #e0bc86, #f2f2f8);
+  background-size: cover; }
+
 .header_dw {
   color: #eeeef7;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
