@@ -1,21 +1,10 @@
 @import "colores"; 
 @import "tipografias";
 
+ /* index */
+
 .fondo1 {
     background-image: linear-gradient(to bottom ,#ebab6b, #ffffff);
-    background-size: cover;
-}
-.fondo2 {
-    background-image: linear-gradient(to bottom ,#e6bf98, #eaecc6);
-    background-size: cover;
-
-}
-.fondo3 {
-    background-image: linear-gradient(to bottom, rgb(224, 188, 134), rgb(242, 242, 248));   
-    background-size: cover;
-}
-.fondo4 {
-    background-image: linear-gradient(to bottom, rgb(200, 230, 162), rgb(242, 242, 248));   
     background-size: cover;
 }
 
@@ -63,6 +52,21 @@
     padding-right: 20px;
 }
 
+    /* sixsigma */
+
+.fondo2 {
+    background-image: linear-gradient(to bottom ,#e6bf98, #eaecc6);
+    background-size: cover;
+
+}
+.fondo3 {
+    background-image: linear-gradient(to bottom, rgb(224, 188, 134), rgb(242, 242, 248));   
+    background-size: cover;
+}
+.fondo4 {
+    background-image: linear-gradient(to bottom, rgb(200, 230, 162), rgb(242, 242, 248));   
+    background-size: cover;
+}
 /* each */
 $dimension: 15px;
 @each $redes in instagram, facebook, linkedin, twitter {
@@ -72,11 +76,25 @@ $dimension: 15px;
         background-image: url(".../imagenes/#{$redes}.jpg");
     }  
 }
-
 .footer__p {
     position: relative;
     padding-top: 25px;
     padding-right: 0px;
+}
+
+    /* six_sigma */
+
+.title-link {
+    color: rgb(220, 220, 240);
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-left: 40px; 
 }
 .body__link {
     color: rgb(39, 39, 70);
@@ -85,6 +103,14 @@ $dimension: 15px;
     font-style: oblique;
     font: size 45px;
     text-decoration: none;
+}
+.container-table {
+    width: 30%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-auto-rows: 30px;
+    border: double;
+    border-color: rgb(243, 236, 236);
 }
 .table__header {
     font-size: 22px;
@@ -98,7 +124,6 @@ $dimension: 15px;
     border-color: rgb(243, 236, 236);
     border-bottom: solid;
 }
-
     .table__item {
         font-size: 16px;
         font-weight: bold;
@@ -112,7 +137,51 @@ $dimension: 15px;
         background-color: rgb(90, 81, 81);
     }
 
-/* formulario*/ 
+      /* sixsigma */
+
+ .button {
+        border: black;
+        border-style: inherit;
+        font-style: italic;
+        font-size: medium;
+        font-weight: bold;
+        width: 100px;
+        margin-top: 30PX;
+        text-decoration: none;
+    
+}
+.container-sixsigma {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 25px;
+    padding-top: 100px;
+}
+.parrafos {
+    font-style: oblique;
+    font-size: 18px;
+    color: rgb(36, 4, 78);
+    font-weight: bold;
+    width: 1000px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.video {
+    padding-left: 25px;
+    float: right;
+    margin-right: 80px;
+    margin-left: 40PX;
+    margin-top: 20px;
+    padding-right: 25px;
+}
+
+    /* formulario*/ 
+
 .form__titulo {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
@@ -127,4 +196,25 @@ $dimension: 15px;
     font-weight: bold;
     font-style: oblique;
     color: rgb(11, 11, 121);
+}
+
+   /* Desarrollo Web */
+
+.header_dw {
+    color: rgb(238, 238, 247);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pdw {
+    padding-top: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    color: rgb(37, 3, 92);
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.carousel_dw {
+    padding-top: 40px;
+
 }
