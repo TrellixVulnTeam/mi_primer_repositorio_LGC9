@@ -2,16 +2,20 @@
 @import "tipografias";
 
 .fondo1 {
-    background-image: linear-gradient(to bottom ,#e9a96a, #ffffff);
+    background-image: linear-gradient(to bottom ,#ebab6b, #ffffff);
     background-size: cover;
 }
 .fondo2 {
-    background-image: linear-gradient(to bottom ,#e9c983, #eaecc6);
+    background-image: linear-gradient(to bottom ,#e6bf98, #eaecc6);
     background-size: cover;
 
 }
 .fondo3 {
-    background-image: linear-gradient(to bottom, rgb(226, 147, 28), rgb(242, 242, 248));   
+    background-image: linear-gradient(to bottom, rgb(224, 188, 134), rgb(242, 242, 248));   
+    background-size: cover;
+}
+.fondo4 {
+    background-image: linear-gradient(to bottom, rgb(200, 230, 162), rgb(242, 242, 248));   
     background-size: cover;
 }
 
@@ -35,7 +39,7 @@
     color: RGB 33, 97, 140;
     font-size: 18px;
     transition: all 2s;
-    color: rgb(41, 201, 230) ;
+    color: rgb(198, 241, 248) ;
     font-family: sans-serif;
     font-weight: bold;
     padding-top: 25px;
@@ -48,7 +52,7 @@
     font-style: oblique;
     font-size: 20px;
     text-decoration-style: dashed;
-    text-decoration-line: underline;
+    text-decoration-line: none;
 }
 .body__p {
     padding-top: 120px;
@@ -74,13 +78,13 @@ $dimension: 15px;
     padding-top: 25px;
     padding-right: 0px;
 }
-.body__link{
+.body__link {
     color: rgb(39, 39, 70);
     font-weight: bold;
     font-family: sans-serif;
     font-style: oblique;
     font: size 45px;
-    text-decoration: rgb(15, 15, 211);
+    text-decoration: none;
 }
 .table__header {
     font-size: 22px;

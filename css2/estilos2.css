@@ -13,15 +13,19 @@ p {
   font-size: 18px; }
 
 .fondo1 {
-  background-image: linear-gradient(to bottom, #e9a96a, #ffffff);
+  background-image: linear-gradient(to bottom, #ebab6b, #ffffff);
   background-size: cover; }
 
 .fondo2 {
-  background-image: linear-gradient(to bottom, #e9c983, #eaecc6);
+  background-image: linear-gradient(to bottom, #e6bf98, #eaecc6);
   background-size: cover; }
 
 .fondo3 {
-  background-image: linear-gradient(to bottom, #e2931c, #f2f2f8);
+  background-image: linear-gradient(to bottom, #e0bc86, #f2f2f8);
+  background-size: cover; }
+
+.fondo4 {
+  background-image: linear-gradient(to bottom, #c8e6a2, #f2f2f8);
   background-size: cover; }
 
 .body__logo {
@@ -54,7 +58,7 @@ p {
   color: RGB 33, 97, 140;
   font-size: 18px;
   transition: all 2s;
-  color: #29c9e6;
+  color: #c6f1f8;
   font-family: sans-serif;
   font-weight: bold;
   padding-top: 25px;
@@ -67,7 +71,7 @@ p {
   font-style: oblique;
   font-size: 20px;
   text-decoration-style: dashed;
-  text-decoration-line: underline; }
+  text-decoration-line: none; }
 
 .body__p {
   padding-top: 120px; }
@@ -109,7 +113,7 @@ p {
   font-family: sans-serif;
   font-style: oblique;
   font: size 45px;
-  text-decoration: #0f0fd3; }
+  text-decoration: none; }
 
 .table__header {
   font-size: 22px;

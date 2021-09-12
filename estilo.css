@@ -218,20 +218,20 @@
 .parrafos {
     font-style: oblique;
     font-size: 18px;
-    color: rgb(1, 1, 14);
+    color: rgb(36, 4, 78);
     font-weight: bold;
-    width: 700px;
+    width: 1000px;
     float: left;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 40px;
+    margin-top: 15px;
 }
 .video {
-    padding-left: 35px;
+    padding-left: 25px;
     float: right;
-    margin-right: 100px;
+    margin-right: 80px;
     margin-left: 40PX;
-    margin-top: 50px;
-    padding-right: 5px;
+    margin-top: 20px;
+    padding-right: 25px;
 }
 .button {
     border: black;
@@ -309,12 +309,12 @@
 }
 
 .pdw {
-    padding-top: 5px;
+    padding-top: 0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: oblique;
-    color: rgb(60, 8, 145);
+    color: rgb(37, 3, 92);
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
 
 }
 .carousel_dw {
