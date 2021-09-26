@@ -1,11 +1,17 @@
 @import "colores"; 
 @import "tipografias";
 
+.menus {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(189, 183, 171);
+}
+
  /* index */
 
 .fondo1 {
     background-image: linear-gradient(to bottom ,#ebab6b, #ffffff);
-    background-size: cover;
 }
 
 .body__logo {
@@ -28,7 +34,7 @@
     color: RGB 33, 97, 140;
     font-size: 18px;
     transition: all 2s;
-    color: rgb(198, 241, 248) ;
+    color: rgb(16, 182, 207) ;
     font-family: sans-serif;
     font-weight: bold;
     padding-top: 25px;
@@ -44,12 +50,33 @@
     text-decoration-line: none;
 }
 .body__p {
-    padding-top: 120px;
+    padding-top: 100px;
 }
 .footer__imag {
     position: relative;
     padding-top: 130px;
     padding-right: 20px;
+}
+
+   /* about */
+.titulos {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: rgb(36, 4, 78);
+}
+.text_a {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(36, 4, 78);
+    
+}
+.text_a2 {
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(36, 4, 78);
 }
 
     /* sixsigma */

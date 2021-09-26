@@ -12,10 +12,15 @@ p {
   font-family: 'Architects Daughter', cursiva;
   font-size: 18px; }
 
+.menus {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #bdb7ab; }
+
 /* index */
 .fondo1 {
-  background-image: linear-gradient(to bottom, #ebab6b, #ffffff);
-  background-size: cover; }
+  background-image: linear-gradient(to bottom, #ebab6b, #ffffff); }
 
 .body__logo {
   width: 200px;
@@ -47,7 +52,7 @@ p {
   color: RGB 33, 97, 140;
   font-size: 18px;
   transition: all 2s;
-  color: #c6f1f8;
+  color: #10b6cf;
   font-family: sans-serif;
   font-weight: bold;
   padding-top: 25px;
@@ -63,12 +68,31 @@ p {
   text-decoration-line: none; }
 
 .body__p {
-  padding-top: 120px; }
+  padding-top: 100px; }
 
 .footer__imag {
   position: relative;
   padding-top: 130px;
   padding-right: 20px; }
+
+/* about */
+.titulos {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+  color: #24044e; }
+
+.text_a {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #24044e; }
+
+.text_a2 {
+  font-size: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #24044e; }
 
 /* sixsigma */
 .fondo2 {
