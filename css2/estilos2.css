@@ -14,9 +14,10 @@ p {
 
 .menus {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
-  color: #bdb7ab; }
+  color: #bdb7ab;
+  margin-top: 15px; }
 
 /* index */
 .fondo1 {
